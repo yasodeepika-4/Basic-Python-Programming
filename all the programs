@@ -1,0 +1,139 @@
+#1print name
+print("yasodha")
+
+#2get the user input from user and print it
+name=input("enter your name:")
+print("your name is :",name)
+
+#3print numbers that can get from user
+num1=int(input("enter the first number:"))
+num2=int(input("enter the second number:"))
+print("first number:",num1)
+print("second number:",num2)
+
+#4get the input from user add 2 numbers
+num1=int(input("enter the first number:"))
+num2=int(input("enter the second number:"))
+sum=num1+num2
+print("sum of numbers:",sum)
+
+#5concatinate first name and last name get input from user 
+a=input("enter the first name:")
+b=input("enter the last name:")
+c=a+b
+print("your full name:",c)
+
+#6get input from user swap 2 numbers without 3rd variable
+a=int(input("enter first num:"))
+b=int(input("enter second num:"))
+a=a+b;
+b=a-b;
+a=a-b;
+print("a:",a)
+print("b:",b)
+
+#7swap 2 numbers using 3rd variable
+a=10;
+b=20;
+temp=a
+a=b
+b=temp
+print("after swapping a is:",a)
+print("after swapping b is:",b)
+
+# 8print primitive data types int,float,boolean
+a=10
+b=10.5
+c=True
+print("int:",a)
+print("float:",b)
+print("boolean:",c)
+
+#9print non primitive data types list,tuple,set,dictionary.
+my_list=[10,20,30,40,50]
+my_tuple=(1,2,3,4,5)
+my_set={100,200,300,400,500}
+my_dict={"apple":20,"mangoes":40,"graps":60}
+print("list:",my_list)
+print("tuple:",my_tuple)
+print("set:",my_set)
+print("dictionary:",my_dict)
+
+#10find the sg of a number 
+a=int(input("enter the value:"))
+sq=a*a
+print("square:",sq)
+
+#11avg of 3 numbers
+a=int(input("enter the first number:"))
+b=int(input("enter the second number:"))
+c=int(input("enter the third number:"))
+avg=(a+b+c)/2
+print("avg of 3 numbers:",avg)
+
+#12take a number as a user input and multiply by 10
+num=int(input("enter the number:"))
+result=num*10
+print("the result:",result)
+
+#13convert min to sec
+min=int(input("enter the value:"))
+sec=min*60
+print("seconds:",sec)
+
+# 14floatind points
+a=float(input("enter the value:"))
+b=float(input("enter the value:"))
+c=a*b
+print(c)
+
+#15find the longest of three numbers
+a=int(input("enter the value:"))
+b=int(input("enter the value:"))
+c=int(input("enter the value:"))
+d=max(a,b,c)
+print("largest number:",d)
+
+#16print arthemetic operations
+a=10
+b=20
+print("addition of 2 numbers:",a+b)
+print("subtraction of 2 numbers:",a-b)
+print("multiplication of 2 numbers:",a*b)
+print("division of 2 numbers:",a/b)
+
+
+#17logical operation print numbers +,-,0
+a=int(input("enter the number"))
+if(a>0):
+    print("positive")
+elif(a==0):
+    print("zero")
+else:
+    print("negative")
+
+
+#18to find odd or even
+a=int(input("enter the number"))
+if (a%2==0):
+  print("even number")
+else:
+  print("odd number")
+
+#19
+num=int(input("enter a number:"))
+if(num%5==0 and num%11==0):
+    print("number divisible by 5 and 11")
+else:
+    print("number is not divisible by 5 and 11")
+
+#20
+theory=int(input("enter the number:"))
+practical=int(input("enter the number:"))
+total=theory+practical
+if theory>=35 and practical>=15 and total>60:
+    print("student pass")
+else:
+    print("student failed")
+    
+    
