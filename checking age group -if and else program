@@ -1,0 +1,9 @@
+#21 to check the age group by the user
+x=int(input("enter your age:"))
+if(x<=13):
+    print("child")
+elif(x<=19):
+    print("teenage")
+else:
+    print("adult")
+
