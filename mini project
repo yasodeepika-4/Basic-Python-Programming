@@ -1,0 +1,50 @@
+print("Welcome to YASHODHA Restaurants")
+print("OUR MENU:\n1.tiffen items\n2.lunch meals\n3.juice items and milks shakes\n4.snacks\n5.food prices\n6.Exit")
+m=int(input("choose your menu:"))
+if(m==1):
+    print("1.tiffen items")
+    print("total items:\n1.idly\n2.dosa\n3.puri\n4.chapathi\n5.vada\n6.bajji\nAny items is available at 100/- only ,for more details go through food prices")
+    input("which you want to order(name of the item-its quantity):")
+    n=int(input("enter total quantity in numbers"))
+    print("total quantity:",n)
+    amount=n*100
+    print("total amount:",amount)
+    print("Thanks for the order,enjoy your food!")
+elif(m==2):
+    print("2.lunch meals")
+    print("total items:\n1.rice with paneercurry\n2.rice with chickencurry\n3.veg friedrice\n4.nonveg friedrice\n5.biryani\nAny item is available at 200/- only ,for more details go through food prices")
+    input("which you want to order(name of the item-its quantity):")
+    n=int(input("enter quantity in numbers"))
+    print("total quantity:",n)
+    amount=n*200
+    print("total amount:",amount)
+    print("Thanks for the order,enjoy your food!")
+elif(m==3):
+    print("3.juice items and milk shakes")
+    print("total items:\n1.orange juice\n2.rose milk\n3.grape juice\n4.banana juice\n5.apple juice\n6.sapota juice\nAny item of one glass available at 50/- only ,for more details go through food prices")
+    input("which you want to order(name of the item-its quantity):")
+    n=int(input("enter quantity in numbers"))
+    print("total quantity:",n)
+    amount=n*50
+    print("total amount:",amount)
+    print("Thanks for the order,enjoy your food!")
+elif(m==4):
+    print("4.snacks")
+    print("total items:\n1.pani puri\n2.chat\n3.our special cookies\n4.sweet corn\n5.pav bajji\n6.vegetable bajji\nAny item of one plate available at 40/- only ,for more details go through food prices")
+    input("which you want to order(name of the item-its quantity):")
+    n=int(input("enter quantity in numbers"))
+    print("total quantity:",n)
+    amount=n*40
+    print("total amount:",amount)
+    print("Thanks for the order,enjoy your food!")
+elif(m==5):
+    print("FOOD PRICES:")
+    print("1.tiffen items-each item 100 rupees only and serves one persone")
+    print("2.lunch meals-each item 200 rupees only and serves 1 or 2 persones")
+    print("3.juice items and milks shakes- each glass 50 rupees")
+    print("4.snacks-each plate 40 rupees")
+    print("OUR MENU IS LIMITED BUT TASTE IS UNLIMITED!")
+elif(m==6):
+    print("Exit...")
+else:
+    print("your choosing is invalid!")
