@@ -1,0 +1,58 @@
+#1.TO FIND SUM OF CUBES OF ALL NUMBERS BETWEEN M AND N INTEGERS 
+m=int(input("enter the value:"))
+n=int(input("enter the value:"))
+s=0
+if(m>n):
+    print("0")
+else:
+    for i in range(m,n+1):
+        s+=i*i*i
+    print("sum:",s)
+
+#2.TO FIND PRODUCT OF ALL INTEGERS BETWEEN M AND N
+m=int(input("enter the value:"))
+n=int(input("enter the value:"))
+p=1 
+if(m>n):
+    print("Display proper massege!")
+else: 
+    for i in range(m,n+1):
+        p*=i 
+    print("product:",p)
+
+
+#3.TO FIND EVEN PRODUCT OF ALL INTEGERS BETWEEN M AND N
+m=int(input("enter the value:"))
+n=int(input("enter the value:"))
+p=1 
+if(m>n):
+    print("-1")
+else: 
+    for i in range(m,n+1):
+        if(i%2==0):
+            p*=i
+    print("product:",p)
+
+
+#4.TO FIND ODD PRODUCT OF ALL INTEGERS BETWEEN M AND N
+m=int(input("enter the value:"))
+n=int(input("enter the value:"))
+p=1 
+if(m>n):
+    print("-1")
+else: 
+    for i in range(m,n+1):
+        if(i%2!=0):
+            p*=i
+    print("product:",p)
+
+
+#5.TO FIND SUM OF FACTORIAL OF INTEGERS BETWEEN M AND N
+import math
+m=int(input("enter the value:"))
+n=int(input("enter the value:"))
+s=0
+for i in range(m,n+1):
+      s+=math.factorial(i)
+print("sum of factorial number:",s)
+
